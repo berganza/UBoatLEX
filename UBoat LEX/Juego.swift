@@ -24,7 +24,6 @@ class Juego: SKScene {
         
         heroe()
         prismaticos()
-        
         crearEscenario()
     }
     
@@ -33,39 +32,29 @@ class Juego: SKScene {
         submarino = SKSpriteNode(imageNamed: "UBoat")
 //        submarino.xScale = 1
 //        submarino.yScale = 1
-        
         submarino.setScale(0.6)
-        
         submarino.zPosition = 1
-        
         submarino.position = CGPointMake(80, 200)
         submarino.name = "heroe"
-        
         addChild(submarino)
         
         moverArriba = SKAction.moveByX(0, y: 20, duration: 0.2)
         moverAbajo = SKAction.moveByX(0, y: -20, duration: 0.2)
-
     }
     
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
         
-        
         for toke: AnyObject in touches {
             
             let dondeTocamos = toke.locationInNode(self)
-            
             if dondeTocamos.y > submarino.position.y {
                 
                 if submarino.position.y < 750 {
                     submarino.runAction(moverArriba)
                 }
-                
-                
             } else {
                 
                 if submarino.position.y > 50 {
-                    
                     submarino.runAction(moverAbajo)
                 }
             }
@@ -78,7 +67,6 @@ class Juego: SKScene {
         prisma.setScale(0.66)
         prisma.zPosition = 2
         prisma.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame))
-        
         addChild(prisma)
     }
 
@@ -88,10 +76,8 @@ class Juego: SKScene {
             
             let fondo = SKSpriteNode(imageNamed: "mar4")
             fondo.position = CGPoint(x: indice * Int(fondo.size.width), y: 0)
-            
             fondo.name = "fondo"
             fondo.zPosition = 0
-            
             addChild(fondo)
         }
     }
@@ -106,7 +92,6 @@ class Juego: SKScene {
                     y: fondo.position.y)
                 
                 if fondo.position.x <= -fondo.size.width {
-                    
                     fondo.position = CGPointMake(
                         fondo.position.x + fondo.size.width * 2,
                         fondo.position.y)
