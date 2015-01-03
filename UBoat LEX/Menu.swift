@@ -35,14 +35,6 @@ class Menu: SKScene {
     }
     
     
-    
-    
-    
-    
-    
-    
-    
-    
     func llamada() {
      
         let label = SKLabelNode(fontNamed: "Avenir")
@@ -58,11 +50,6 @@ class Menu: SKScene {
         
 
     }
-    
-    
-    
-    
-    
     
     
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
@@ -85,21 +72,6 @@ class Menu: SKScene {
             self.scene?.view?.presentScene(aparecerEscena, transition: transicion)
             
         }
-        
-        
-        
-        
-        
     }
-    
-    
-    
-    
-    
-    
-    
-    
-
-
 }
 

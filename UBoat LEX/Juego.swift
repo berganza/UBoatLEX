@@ -11,9 +11,7 @@ import SpriteKit
 
 class Juego: SKScene {
 
-    
-    
-    
+
     var submarino = SKSpriteNode()
     var prisma = SKSpriteNode()
     
@@ -35,14 +33,8 @@ class Juego: SKScene {
         heroe()
         prismaticos()
         
-        
         crearEscenario()
-        
-        
     }
-    
-    
-    
     
     func heroe() {
         
@@ -59,18 +51,10 @@ class Juego: SKScene {
         
         addChild(submarino)
         
-        
-        
-        
         moverArriba = SKAction.moveByX(0, y: 20, duration: 0.2)
         moverAbajo = SKAction.moveByX(0, y: -20, duration: 0.2)
 
-        
     }
-    
-    
-    
-    
     
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
         
@@ -93,15 +77,8 @@ class Juego: SKScene {
                     submarino.runAction(moverAbajo)
                 }
             }
-            
         }
-        
-        
     }
-    
-    
-    
-    
     
     func prismaticos() {
         
@@ -111,18 +88,8 @@ class Juego: SKScene {
         prisma.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame))
         
         addChild(prisma)
-        
-        
-        
     }
-    
-    
-    
-    
-    
-    
-    
-    
+
     func crearEscenario() {
         
         
@@ -137,10 +104,7 @@ class Juego: SKScene {
             addChild(fondo)
 
         }
-        
-        
     }
-    
     
     func scrollHorizontal() {
         
@@ -159,17 +123,9 @@ class Juego: SKScene {
                 }
             }
         })
-        
-        
     }
-    
-    
-    
     
     override func update(currentTime: NSTimeInterval) {
         scrollHorizontal()
     }
-    
-    
-    
 }
