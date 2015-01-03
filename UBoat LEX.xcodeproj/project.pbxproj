@@ -15,6 +15,9 @@
 		9A0E58071A40CB5D0079AD38 /* UBoat_LEXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0E58061A40CB5D0079AD38 /* UBoat_LEXTests.swift */; };
 		9A0E58111A40CC050079AD38 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0E58101A40CC050079AD38 /* Menu.swift */; };
 		9A0E58131A40D1090079AD38 /* Juego.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0E58121A40D1090079AD38 /* Juego.swift */; };
+		9AE861091A5856D600F69401 /* efecto.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9AE861071A5856D600F69401 /* efecto.sks */; };
+		9AE8610A1A5856D600F69401 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE861081A5856D600F69401 /* spark.png */; };
+		9AE8610C1A585AFC00F69401 /* estelaMar2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9AE8610B1A585AFC00F69401 /* estelaMar2.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		9A0E58061A40CB5D0079AD38 /* UBoat_LEXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBoat_LEXTests.swift; sourceTree = "<group>"; };
 		9A0E58101A40CC050079AD38 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		9A0E58121A40D1090079AD38 /* Juego.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Juego.swift; sourceTree = "<group>"; };
+		9AE861071A5856D600F69401 /* efecto.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = efecto.sks; sourceTree = "<group>"; };
+		9AE861081A5856D600F69401 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		9AE8610B1A585AFC00F69401 /* estelaMar2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = estelaMar2.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,9 @@
 				9A0E57F21A40CB5D0079AD38 /* ViewController.swift */,
 				9A0E58101A40CC050079AD38 /* Menu.swift */,
 				9A0E58121A40D1090079AD38 /* Juego.swift */,
+				9AE861071A5856D600F69401 /* efecto.sks */,
+				9AE8610B1A585AFC00F69401 /* estelaMar2.sks */,
+				9AE861081A5856D600F69401 /* spark.png */,
 				9A0E57F41A40CB5D0079AD38 /* Main.storyboard */,
 				9A0E57F71A40CB5D0079AD38 /* Images.xcassets */,
 				9A0E57F91A40CB5D0079AD38 /* LaunchScreen.xib */,
@@ -198,9 +207,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AE8610A1A5856D600F69401 /* spark.png in Resources */,
 				9A0E57F61A40CB5D0079AD38 /* Main.storyboard in Resources */,
 				9A0E57FB1A40CB5D0079AD38 /* LaunchScreen.xib in Resources */,
 				9A0E57F81A40CB5D0079AD38 /* Images.xcassets in Resources */,
+				9AE861091A5856D600F69401 /* efecto.sks in Resources */,
+				9AE8610C1A585AFC00F69401 /* estelaMar2.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +427,7 @@
 				9A0E580C1A40CB5D0079AD38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A0E580D1A40CB5D0079AD38 /* Build configuration list for PBXNativeTarget "UBoat LEXTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +436,7 @@
 				9A0E580F1A40CB5D0079AD38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
