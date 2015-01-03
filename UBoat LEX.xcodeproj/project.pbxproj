@@ -18,6 +18,8 @@
 		9AE861091A5856D600F69401 /* efecto.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9AE861071A5856D600F69401 /* efecto.sks */; };
 		9AE8610A1A5856D600F69401 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE861081A5856D600F69401 /* spark.png */; };
 		9AE8610C1A585AFC00F69401 /* estelaMar2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9AE8610B1A585AFC00F69401 /* estelaMar2.sks */; };
+		9AE8610F1A585D2F00F69401 /* Humo Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9AE8610D1A585D2F00F69401 /* Humo Explosion.sks */; };
+		9AE861101A585D2F00F69401 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE8610E1A585D2F00F69401 /* smoke.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		9AE861071A5856D600F69401 /* efecto.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = efecto.sks; sourceTree = "<group>"; };
 		9AE861081A5856D600F69401 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		9AE8610B1A585AFC00F69401 /* estelaMar2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = estelaMar2.sks; sourceTree = "<group>"; };
+		9AE8610D1A585D2F00F69401 /* Humo Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = "Humo Explosion.sks"; path = "../Humo Explosion.sks"; sourceTree = "<group>"; };
+		9AE8610E1A585D2F00F69401 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smoke.png; path = ../smoke.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		9A0E57ED1A40CB5D0079AD38 /* UBoat LEX */ = {
 			isa = PBXGroup;
 			children = (
+				9AE8610D1A585D2F00F69401 /* Humo Explosion.sks */,
+				9AE8610E1A585D2F00F69401 /* smoke.png */,
 				9A0E57F01A40CB5D0079AD38 /* AppDelegate.swift */,
 				9A0E57F21A40CB5D0079AD38 /* ViewController.swift */,
 				9A0E58101A40CC050079AD38 /* Menu.swift */,
@@ -207,8 +213,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AE8610F1A585D2F00F69401 /* Humo Explosion.sks in Resources */,
 				9AE8610A1A5856D600F69401 /* spark.png in Resources */,
 				9A0E57F61A40CB5D0079AD38 /* Main.storyboard in Resources */,
+				9AE861101A585D2F00F69401 /* smoke.png in Resources */,
 				9A0E57FB1A40CB5D0079AD38 /* LaunchScreen.xib in Resources */,
 				9A0E57F81A40CB5D0079AD38 /* Images.xcassets in Resources */,
 				9AE861091A5856D600F69401 /* efecto.sks in Resources */,
