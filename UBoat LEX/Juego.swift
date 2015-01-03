@@ -8,27 +8,19 @@
 
 import SpriteKit
 
-
 class Juego: SKScene {
-
 
     var submarino = SKSpriteNode()
     var prisma = SKSpriteNode()
     
-    
     var moverArriba = SKAction()
     var moverAbajo = SKAction()
-    
-    
-    
+
     let velocidadFondo: CGFloat = 2
-    
     
     override func didMoveToView(view: SKView) {
         
-        
         backgroundColor = UIColor.cyanColor()
-        
         
         heroe()
         prismaticos()
@@ -92,7 +84,6 @@ class Juego: SKScene {
 
     func crearEscenario() {
         
-        
         for var indice = 0; indice < 2; ++indice {
             
             let fondo = SKSpriteNode(imageNamed: "mar4")
@@ -102,7 +93,6 @@ class Juego: SKScene {
             fondo.zPosition = 0
             
             addChild(fondo)
-
         }
     }
     
